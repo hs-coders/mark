@@ -45,7 +45,14 @@ body {
   transition: all 0.25s ease;
   animation: populate 0.5s ease-out normal backwards;
 }
-
+.male {  background-color: #0ff;
+}
+.female{  background-color: pink;
+}
+.home{ background-color: #f00;
+	  height:50px;
+	  width: 100%;
+	  text-align: center;}
 .cards:hover {
   transform: scale(1.05);
   z-index: 1;
@@ -94,6 +101,6 @@ body {
 
 @media screen and (max-width: 786px) {
   .search-container{
-    width: 50%;
+    width: 70%;
   }
 }
